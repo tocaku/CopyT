@@ -1,0 +1,238 @@
+.comments_face * {
+  font-family: "Roboto", sans-serif !important;
+}
+.comments_face {
+  background-color: #fff;
+  font-size: 14px;
+}
+.comments_face .comments {
+  background-color: #eeeff4;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+}
+.comments_face .profile {
+  float: left;
+  width: 60px;
+  margin-right: 10px;
+}
+.comments_face .comment-content img,
+.comments_face .profile img {
+  width: 100%;
+}
+.comments_face .comment-content img,
+.comments_face .profile img,
+.comment-status img {
+  margin: 0 auto;
+}
+.comments_face .comment-content {
+  padding-left: 10px;
+}
+.comments_face .name {
+  margin: 0;
+}
+.comments_face .comment-status span,
+.comments_face .name {
+  color: #3b5998;
+}
+.comments_face .name,
+.comments_face .result {
+  font-weight: 700;
+}
+.comments_face .button,
+.comments_face .name,
+.comments_face .profile {
+  cursor: pointer;
+}
+.comments_face .comment-status {
+  font-size: 11px;
+  cursor: pointer;
+}
+.comments_face .comment-status span,
+.comments_face .name {
+  color: #3b5998;
+}
+.comments_face .button,
+.comments_face .main-content span {
+  color: red;
+}
+.comments_face .clr {
+  clear: both;
+}
+#comments-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#comment-form {
+  margin-bottom: 20px;
+}
+
+.comment-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Закругленные углы */
+  background-color: #f9f9f9; /* Фоновый цвет для комментария */
+}
+
+/* #addcomment-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#comment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#comment-text {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+}
+
+#publish-button {
+  padding: 10px 20px;
+  background-color: #ed9220;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  color: #fff;
+  padding: 5px 0;
+  margin: 5px 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.74);
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #eeeff4;
+  border-bottom: 2px solid #fff;
+  padding: 10px;
+}
+
+#comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}*/
+
+.name12 {
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: block;
+  width: 50%;
+  color: #ffffff;
+  text-align: right;
+}
+
+.comment-item:not(:last-child) {
+  border-bottom: 2px solid #ffffff;
+}
+
+.comment-user {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.comment-text {
+  margin-top: 5px;
+  color: #ffffff;
+}
+#addcomment-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#comment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#comment-text {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+}
+
+#publish-button {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 100%;
+  background-color: #ed9220;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid #f0f0f0;
+  color: #fff;
+  padding: 5px 0;
+  margin: 5px 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.74);
+}
+
+.www {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#comments-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comment-item {
+  position: relative;
+  background-color: #eeeff4;
+
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(0, 0, 0, 0.1); /* Обводка и тень */
+  border-radius: 0;
+
+  border: 2px solid #fff;
+  padding: 10px;
+  /* border-radius: 4px; */
+  /* box-shadow: none; */
+}
+
+/* .comment-item::before {
+  content: "";
+  position: absolute;
+  top: -5px; 
+  left: -5px; 
+  right: -5px; 
+  bottom: -5px; 
+  border: 2px solid #fff; 
+  border-radius: 8px; 
+  z-index: -1; */
+
+.comment-item:not(:last-child) {
+  border-bottom: 2px solid #ddd;
+}
